@@ -20,6 +20,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # gem for bootstrap
 gem 'bootstrap-sass'
+# gem for user login
+gem 'devise', '~> 3.4.0'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
