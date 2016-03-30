@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 ruby '2.2.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', 		'4.2.6'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', 	'~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', 	'>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -15,17 +15,19 @@ gem 'coffee-rails', '~> 4.1.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# [Remove for this project] gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', 	'~> 2.0'
 # gem for bootstrap
 gem 'bootstrap-sass'
 # gem for user login
-gem 'devise', '~> 3.4.0'
+gem 'devise', 		'~> 3.4.0'
 # gem for image
-gem 'paperclip', '~> 4.2'
+gem 'paperclip', 	'~> 4.2'
 # gem for store the images
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk', 		'< 2.0'
+# gem for interactive page 
+gem 'masonry-rails','~> 0.2.0'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
