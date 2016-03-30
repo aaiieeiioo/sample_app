@@ -24,6 +24,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.0'
 # gem for image
 gem 'paperclip', '~> 4.2'
+# gem for store the images
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
