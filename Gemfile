@@ -21,7 +21,7 @@ gem 'jbuilder', 	'~> 2.0'
 # gem for bootstrap
 gem 'bootstrap-sass'
 # gem for user login
-gem 'devise', 		'~> 3.4.0'
+gem 'devise', 		'~> 4.7.1'
 # gem for image
 gem 'paperclip', 	'~> 4.2'
 # gem for store the images
